@@ -14,7 +14,11 @@ Docker images listing
 ```
 docker images
 ```
-Docker containers listing
+Docker containers listing (active containers)
 ```
 docker ps
+```
+Docker containers listing (all containers)
+```
+docker ps -a
 ```
