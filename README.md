@@ -10,3 +10,11 @@ Resource allocation (Docker resources usage)
 ```
 docker system df
 ```
+Docker images listing
+```
+docker images
+```
+Docker containers listing
+```
+docker ps
+```
