@@ -48,7 +48,7 @@ docker run -d --name ubuntu-2 ubuntu:18.04 sleep 5
 ```
 Manually remove (delete) docker containers
 ```
-docker container rm CONTAINER_NAME
+docker rm CONTAINER_NAME
 ```
 
 Automatically remove (delete) docker containers
