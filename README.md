@@ -22,3 +22,7 @@ Docker containers listing (all containers)
 ```
 docker ps -a
 ```
+Docker containers listing
+```
+docker volume ls
+```
