@@ -47,8 +47,12 @@ Run Docker containers (sleep 5 command, daemon mode)
 docker run -d --name ubuntu-2 ubuntu:18.04 sleep 5
 ```
 Manually remove (delete) docker containers
+```
+docker container rm CONTAINER_NAME
+```
 
 Automatically remove (delete) docker containers
 ```
 docker container prune
 ```
+
