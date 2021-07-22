@@ -26,3 +26,15 @@ Docker containers listing
 ```
 docker volume ls
 ```
+Docker volume metadata
+```
+docker volume inspect VOLUME_NAME
+```
+Manually remove (delete) docker volume
+```
+docker volume rm VOLUME_NAME
+```
+Automatically remove (delete) docker volume
+```
+docker volume prune
+```
