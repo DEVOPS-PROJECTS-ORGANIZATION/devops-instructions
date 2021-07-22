@@ -50,7 +50,6 @@ Manually remove (delete) docker containers
 ```
 docker rm CONTAINER_NAME
 ```
-
 Automatically remove (delete) docker containers
 ```
 docker container prune
@@ -58,4 +57,12 @@ docker container prune
 After the container is shut down, the container will be automatically deleted (ideal for testing purposes)
 ```
 docker run -it --rm --name ubuntu-3 ubuntu:18.04 bash
+```
+Manually remove (delete) docker images
+```
+docker images rm IMAGES_NAME
+```
+Automatically remove (delete) docker containers
+```
+docker image prune
 ```
