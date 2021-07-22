@@ -30,11 +30,15 @@ Docker volume metadata
 ```
 docker volume inspect VOLUME_NAME
 ```
-Manually remove (delete) docker volume
+Manually remove (delete) Docker volume
 ```
 docker volume rm VOLUME_NAME
 ```
-Automatically remove (delete) docker volume
+Automatically remove (delete) Docker volume
 ```
 docker volume prune
+```
+Run Docker containers
+```
+docker run -it --name ubuntu-1 ubuntu:18.04 bash
 ```
