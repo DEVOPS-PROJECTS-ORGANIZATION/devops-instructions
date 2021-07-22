@@ -60,7 +60,7 @@ docker run -it --rm --name ubuntu-3 ubuntu:18.04 bash
 ```
 Manually remove (delete) docker images
 ```
-docker images rm IMAGES_NAME
+docker image rm IMAGES_NAME
 ```
 Automatically remove (delete) docker containers
 ```
