@@ -57,5 +57,5 @@ docker container prune
 ```
 After the container is shut down, the container will be automatically deleted (ideal for testing purposes)
 ```
-docker run -it --rm --name ubuntu-1 ubuntu:18.04 bash
+docker run -it --rm --name ubuntu-3 ubuntu:18.04 bash
 ```
