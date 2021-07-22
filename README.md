@@ -57,5 +57,5 @@ docker container prune
 ```
 After the container is shut down, the container will be automatically deleted (ideal for testing purposes)
 ```
-docker run -it --rm --name gw000/keras-full bash
+docker run -it --rm --name keras-1 gw000/keras-full bash
 ```
