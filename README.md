@@ -38,11 +38,11 @@ Automatically remove (delete) Docker volume
 ```
 docker volume prune
 ```
-Run Docker containers (bash command, interactive mode)
+Creates and runs Docker containers (bash command, interactive mode)
 ```
 docker run -it --name ubuntu-1 ubuntu:18.04 bash
 ```
-Run Docker containers (sleep 5 command, daemon mode)
+Creates and runs Docker containers (sleep 5 command, daemon mode)
 ```
 docker run -d --name ubuntu-2 ubuntu:18.04 sleep 5
 ```
