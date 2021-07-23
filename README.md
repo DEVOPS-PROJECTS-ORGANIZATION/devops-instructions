@@ -40,7 +40,7 @@ docker volume prune
 ```
 Creates and runs Docker containers (bash command; **interactive mode**; 
 This way, you get an interactive shell and you are immediately logged into the OS running as container;
-)
+You are currently in an interactive shell session inside the Docker container)
 ```
 docker run -it --name ubuntu-1 ubuntu:18.04 bash
 ```
