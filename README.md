@@ -78,3 +78,8 @@ Run existing Docker container
 ```
 docker start -i CONTAINER_NAME or CONTAINER_ID
 ```
+Stop and exit Docker container
+```
+```
+```
+```
