@@ -98,3 +98,15 @@ Your interactive docker session is now in daemon mode.)
 ```
 ctrl+p and ctrl+q one after another
 ```
+Get inside of a running Docker container (Suppose you run a docker container in **daemon mode**)
+``` 
+docker attach CONTAINER_NAME or CONTAINER_ID
+```
+```
+
+```
+Get outside of a running Docker container (Suppose you run a docker container in **interactive mode**)
+``` 
+```
+``` 
+```
