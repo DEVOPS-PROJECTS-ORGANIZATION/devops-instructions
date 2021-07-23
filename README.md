@@ -66,3 +66,7 @@ Automatically remove (delete) docker containers
 ```
 docker image prune -a
 ```
+Pull Docker image from Docker Hub Container Image Library
+```
+docker pull python
+```
