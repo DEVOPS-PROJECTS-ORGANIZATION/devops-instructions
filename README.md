@@ -112,3 +112,7 @@ Get outside of a running Docker container (Suppose you run a docker container in
 ``` 
 ctrl+p and ctrl+q one after another
 ```
+Check if you are inside of a running Docker container
+```
+uname -a
+```
