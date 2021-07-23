@@ -116,3 +116,4 @@ Check if you are inside of a running Docker container
 ```
 uname -a
 ```
+![](images/hostname.png)
