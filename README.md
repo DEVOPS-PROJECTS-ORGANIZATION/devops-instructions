@@ -103,10 +103,9 @@ Get inside of a running Docker container (Suppose you run a docker container in 
 docker attach CONTAINER_NAME or CONTAINER_ID
 ```
 ```
-
+docker exec -ti CONTAINER_NAME or CONTAINER_ID bash
 ```
 Get outside of a running Docker container (Suppose you run a docker container in **interactive mode**)
 ``` 
-```
-``` 
+ctrl+p and ctrl+q one after another
 ```
