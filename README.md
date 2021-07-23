@@ -91,3 +91,10 @@ exit
 ```
 ctrl+d 
 ```
+Exit docker container without stopping it (Suppose you run a docker container in **interactive mode**;
+detach container; “detach” from the interactive session to leave your conainer running in the background;
+Keep your container running in the background; When detached, your container will keep on running even if you exit the container. 
+Your interactive docker session is now in daemon mode.)
+```
+ctrl+p and ctrl+q one after another
+```
