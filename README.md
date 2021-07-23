@@ -62,7 +62,7 @@ Manually remove (delete) docker images
 ```
 docker image rm IMAGES_NAME
 ```
-Automatically remove (delete) docker containers
+Automatically remove (delete) docker images
 ```
 docker image prune -a
 ```
