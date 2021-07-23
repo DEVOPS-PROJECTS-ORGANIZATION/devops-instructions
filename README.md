@@ -45,7 +45,8 @@ You are currently in an interactive shell session inside the Docker container)
 docker run -it --name ubuntu-1 ubuntu:18.04 bash
 ```
 Creates and runs Docker containers (sleep 5 command; **daemon mode**; 
-This way the container starts and run in the background; An interactive shell that runs bash is **not available** immediately)
+This way the container starts and run in the background; An interactive shell that runs bash is **not available** immediately;
+You “daemonize” the container)
 ```
 docker run -d --name ubuntu-2 ubuntu:18.04 sleep 5
 ```
@@ -95,7 +96,8 @@ ctrl+d
 Exit docker container without stopping it (Suppose you run a docker container in **interactive mode**;
 detach container; “detach” from the interactive session to leave your conainer running in the background;
 Keep your container running in the background; When detached, your container will keep on running even if you exit the container. 
-Your interactive docker session is now in daemon mode.)
+Your interactive docker session is now in daemon mode; You can detach from an interactive Docker session without stopping a Docker container;
+You “daemonize” the container)
 ```
 ctrl+p and ctrl+q one after another
 ```
