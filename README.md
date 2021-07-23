@@ -75,3 +75,6 @@ Accessing Thin R/W Layer after container crashes (snapshot of Docker container f
 docker commit CONTAINER_ID BACKUP_IMAGE_NAME:BACKUP_IMAGE_TAG
 ```
 Run existing Docker container
+```
+docker start -i CONTAINER_NAME or CONTAINER_ID
+```
