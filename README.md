@@ -97,7 +97,7 @@ Exit docker container without stopping it (Suppose you run a docker container in
 detach container; “detach” from the interactive session to leave your conainer running in the background;
 Keep your container running in the background; When detached, your container will keep on running even if you exit the container. 
 Your interactive docker session is now in daemon mode; You can detach from an interactive Docker session without stopping a Docker container;
-You “daemonize” the container)
+You “daemonize” the container; Keeps the container running but frees up your terminal)
 ```
 ctrl+p and ctrl+q one after another
 ```
