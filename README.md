@@ -136,5 +136,5 @@ docker image build -t first-app ./
 ```
 Containers logs
 ```
-docker logs 
+docker logs CONTAINER_NAME or CONTAINER_ID
 ```
