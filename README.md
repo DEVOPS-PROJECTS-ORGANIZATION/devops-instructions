@@ -117,3 +117,7 @@ Check if you are inside of a running Docker container
 uname -a
 ```
 ![](images/hostname.png)
+Create Docker image from Docker file (using traditional Docker build)
+```
+docker image build -t first-app .
+```
