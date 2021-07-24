@@ -134,3 +134,7 @@ docker image build -t first-app .
 ```
 docker image build -t first-app ./
 ```
+Containers logs
+```
+docker logs 
+```
