@@ -2,7 +2,7 @@
 
 ## Docker
 
-Pieces of information about docker daemon
+Pieces of information about Docker daemon
 ```
 docker system info
 ```
@@ -50,7 +50,7 @@ You “daemonize” the container)
 ```
 docker run -d --name ubuntu-2 ubuntu:18.04 sleep 5
 ```
-Manually remove (delete) docker containers
+Manually remove (delete) Docker containers
 ```
 docker rm CONTAINER_NAME
 ```
@@ -58,7 +58,7 @@ Multiple Docker containers removal
 ```
 docker rm CONTAINER_NAME1 CONTAINER_NAME2
 ```
-Automatically remove (delete) docker containers
+Automatically remove (delete) Docker containers
 ```
 docker container prune
 ```
@@ -66,11 +66,11 @@ After the container is shut down, the container will be automatically deleted (i
 ```
 docker run -it --rm --name ubuntu-3 ubuntu:18.04 bash
 ```
-Manually remove (delete) docker images
+Manually remove (delete) Docker images
 ```
 docker image rm IMAGE_NAME
 ```
-Automatically remove (delete) docker images
+Automatically remove (delete) Docker images
 ```
 docker image prune -a
 ```
@@ -104,7 +104,7 @@ exit
 ```
 ctrl+d 
 ```
-Exit docker container without stopping it (Suppose you run a docker container in **interactive mode**;
+Exit docker container without stopping it (Suppose you run a Docker container in **interactive mode**;
 detach container; “detach” from the interactive session to leave your conainer running in the background;
 Keep your container running in the background; When detached, your container will keep on running even if you exit the container. 
 Your interactive docker session is now in daemon mode; You can detach from an interactive Docker session without stopping a Docker container;
@@ -112,14 +112,14 @@ You “daemonize” the container; Keeps the container running but frees up your
 ```
 ctrl+p and ctrl+q one after another
 ```
-Get inside of a running Docker container (Suppose you run a docker container in **daemon mode**)
+Get inside of a running Docker container (Suppose you run a Docker container in **daemon mode**)
 ``` 
 docker attach CONTAINER_NAME or CONTAINER_ID
 ```
 ```
 docker exec -ti CONTAINER_NAME or CONTAINER_ID bash
 ```
-Get outside of a running Docker container (Suppose you run a docker container in **interactive mode**)
+Get outside of a running Docker container (Suppose you run a Docker container in **interactive mode**)
 ``` 
 ctrl+p and ctrl+q one after another
 ```
