@@ -86,6 +86,9 @@ Stop one or more running containers (Suppose you run a docker container in **dae
 ```
 docker stop CONTAINER_NAME or CONTAINER_ID
 ```
+```
+docker kill CONTAINER_NAME or CONTAINER_ID
+```
 Stop and exit Docker container (Suppose you run a docker container in **interactive mode**)
 ```
 exit 
