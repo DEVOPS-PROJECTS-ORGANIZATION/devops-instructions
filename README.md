@@ -124,3 +124,6 @@ docker image build -t IMAGE_NAME DOCKERFILE_PATH
 ```
 docker image build -t first-app .
 ```
+```
+docker image build -t first-app ./
+```
