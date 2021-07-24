@@ -82,18 +82,22 @@ Accessing Thin R/W Layer after container crashes (snapshot of Docker container f
 ```
 docker commit CONTAINER_ID BACKUP_IMAGE_NAME:BACKUP_IMAGE_TAG
 ```
-Run existing Docker container
+Run existing Docker container (Run a Docker container in **interactive mode**)
 ```
 docker start -i CONTAINER_NAME or CONTAINER_ID
 ```
-Stop one or more running containers (Suppose you run a docker container in **daemon mode**)
+Run existing Docker container (Run a Docker container in **daemon mode**)
+```
+docker start CONTAINER_NAME or CONTAINER_ID 
+```
+Stop one or more running containers (Suppose you run a Docker container in **daemon mode**)
 ```
 docker stop CONTAINER_NAME or CONTAINER_ID
 ```
 ```
 docker kill CONTAINER_NAME or CONTAINER_ID
 ```
-Stop and exit Docker container (Suppose you run a docker container in **interactive mode**)
+Stop and exit Docker container (Suppose you run a Docker container in **interactive mode**)
 ```
 exit 
 ```
