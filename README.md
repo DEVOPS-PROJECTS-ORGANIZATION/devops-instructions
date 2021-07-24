@@ -54,6 +54,10 @@ Manually remove (delete) docker containers
 ```
 docker rm CONTAINER_NAME
 ```
+Multiple Docker containers removal
+```
+docker rm CONTAINER_NAME1 CONTAINER_NAME2
+```
 Automatically remove (delete) docker containers
 ```
 docker container prune
