@@ -134,7 +134,7 @@ docker image build -t first-app .
 ```
 docker image build -t first-app ./
 ```
-Containers logs
+Containers logs (Suppose you run a docker container in **daemon mode**)
 ```
 docker logs CONTAINER_NAME or CONTAINER_ID
 ```
