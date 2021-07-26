@@ -13,8 +13,9 @@ start "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 ```
 ![](images/docker_is_running.png)
 Stop Docker Daemon
-After you right clicking docker’s icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
+After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
 ![](images/stop_docker_daemon.png)
+
 Pieces of information about Docker daemon
 ```
 docker system info
