@@ -4,6 +4,10 @@
 
 ### Docker Daemon
 Start Docker Daemon
+Start Docker Daemon with Windows PowerShell
+```
+start "C:\Program Files\Docker\Docker\Docker Desktop.exe"
+```
 ![](images/docker_is_running.png)
 Stop Docker Daemon
 
