@@ -30,6 +30,16 @@ Docker images listing
 ```
 docker images
 ```
+Create Docker image from Dockerfile (using traditional Docker build)
+```
+docker image build -t IMAGE_NAME DOCKERFILE_PATH
+```
+```
+docker image build -t first-app .
+```
+```
+docker image build -t first-app ./
+```
 ### Docker Container
 Docker containers listing (active containers = running containers)
 ```
@@ -153,16 +163,7 @@ Check if you are inside of a running Docker container
 uname -a
 ```
 ![](images/hostname.png)
-Create Docker image from Dockerfile (using traditional Docker build)
-```
-docker image build -t IMAGE_NAME DOCKERFILE_PATH
-```
-```
-docker image build -t first-app .
-```
-```
-docker image build -t first-app ./
-```
+
 Containers logs (Suppose you run a docker container in **daemon mode**)
 ```
 docker logs CONTAINER_NAME or CONTAINER_ID
