@@ -3,7 +3,10 @@
 ## Docker
 
 ### Docker Daemon
-Start Docker Daemon
+If you're using Docker for Windows, Then simply start the desktop app installed in:
+```
+C:\Program Files\Docker\Docker\Docker Desktop.exe
+```
 Start Docker Daemon with Windows PowerShell
 ```
 start "C:\Program Files\Docker\Docker\Docker Desktop.exe"
