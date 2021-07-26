@@ -4,7 +4,7 @@
 
 ### Docker Daemon
 Start Docker Daemon
-
+![](images/docker_is_running.png)
 Stop Docker Daemon
 ### Docker Info
 ### Docker Image
