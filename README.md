@@ -32,7 +32,7 @@ Docker images listing
 ```
 docker images
 ```
-Create Docker image from Dockerfile (using traditional Docker build)
+Create Docker image from Dockerfile with Docker BuildKit (Using existing .jar binary file; .jar file is already generated)
 ```
 docker image build -t IMAGE_NAME DOCKERFILE_PATH
 ```
@@ -41,6 +41,10 @@ docker image build -t first-app .
 ```
 ```
 docker image build -t first-app ./
+```
+Create Docker image from Dockerfile with Docker BuildKit (Generating .jar binary file; .jar file is not already generated, so we need to map source code to .jar file)
+```
+docker build --target appServerRuntime -t danijelradakovic/servers:0.1.0 .
 ```
 Pull Docker image from Docker Hub Container Image Library
 ```
