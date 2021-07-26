@@ -43,6 +43,18 @@ docker image build -t first-app .
 ```
 docker image build -t first-app ./
 ```
+Pull Docker image from Docker Hub Container Image Library
+```
+docker pull python
+```
+Manually remove (delete) Docker images
+```
+docker image rm IMAGE_NAME
+```
+Automatically remove (delete) Docker images
+```
+docker image prune -a
+```
 ### Docker Container
 Docker containers listing (active containers = running containers)
 ```
@@ -104,18 +116,7 @@ After the container is shut down, the container will be automatically deleted (i
 ```
 docker run -it --rm --name ubuntu-3 ubuntu:18.04 bash
 ```
-Manually remove (delete) Docker images
-```
-docker image rm IMAGE_NAME
-```
-Automatically remove (delete) Docker images
-```
-docker image prune -a
-```
-Pull Docker image from Docker Hub Container Image Library
-```
-docker pull python
-```
+
 Accessing Thin R/W Layer after container crashes (snapshot of Docker container file system)
 ```
 docker commit CONTAINER_ID BACKUP_IMAGE_NAME:BACKUP_IMAGE_TAG
