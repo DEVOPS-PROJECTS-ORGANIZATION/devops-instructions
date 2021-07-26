@@ -6,20 +6,22 @@
 Start Docker Daemon
 ![](images/docker_is_running.png)
 Stop Docker Daemon
+Pieces of information about Docker daemon
+```
+docker system info
+```
 ### Docker Info
+Resource allocation (Docker resources usage)
+```
+docker system df
+```
 ### Docker Image
 ### Docker Container
 ### Docker Network
 ### Docker Volume
 
-Pieces of information about Docker daemon
-```
-docker system info
-```
-Resource allocation (Docker resources usage)
-```
-docker system df
-```
+
+
 Docker images listing
 ```
 docker images
