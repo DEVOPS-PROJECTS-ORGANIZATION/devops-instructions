@@ -17,16 +17,11 @@ Resource allocation (Docker resources usage)
 docker system df
 ```
 ### Docker Image
-### Docker Container
-### Docker Network
-### Docker Volume
-
-
-
 Docker images listing
 ```
 docker images
 ```
+### Docker Container
 Docker containers listing (active containers = running containers)
 ```
 docker ps
@@ -35,6 +30,13 @@ Docker containers listing (all containers)
 ```
 docker ps -a
 ```
+### Docker Network
+### Docker Volume
+
+
+
+
+
 Docker containers listing
 ```
 docker volume ls
