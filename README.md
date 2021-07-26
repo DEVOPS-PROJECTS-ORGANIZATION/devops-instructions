@@ -67,30 +67,6 @@ Docker containers listing (all containers)
 ```
 docker ps -a
 ```
-### Docker Network
-### Docker Volume
-Docker volumes listing
-```
-docker volume ls
-```
-Docker volume metadata
-```
-docker volume inspect VOLUME_NAME
-```
-Manually remove (delete) Docker volume
-```
-docker volume rm VOLUME_NAME
-```
-Automatically remove (delete) Docker volume
-```
-docker volume prune
-```
-
-
-
-
-
-
 Creates and runs Docker containers (bash command; **interactive mode**; 
 This way, you get an interactive shell and you are immediately logged into the OS running as container;
 You are currently in an interactive shell session inside the Docker container)
@@ -175,3 +151,28 @@ Containers logs (Suppose you run a docker container in **daemon mode**)
 ```
 docker logs CONTAINER_NAME or CONTAINER_ID
 ```
+### Docker Network
+### Docker Volume
+Docker volumes listing
+```
+docker volume ls
+```
+Docker volume metadata
+```
+docker volume inspect VOLUME_NAME
+```
+Manually remove (delete) Docker volume
+```
+docker volume rm VOLUME_NAME
+```
+Automatically remove (delete) Docker volume
+```
+docker volume prune
+```
+
+
+
+
+
+
+
