@@ -158,7 +158,7 @@ Containers logs (Suppose you run a docker container in **daemon mode**)
 docker logs CONTAINER_NAME or CONTAINER_ID
 ```
 Container port forwarding (Ports exposed from Linux are forwarded to the host; 
-publishes all exposed ports of the container to ports on the host)
+Publishes all exposed ports of the container to ports on the host)
 ```
 docker run -MODE --name CONTAINER_NAME -p HOST_PORT:CLIENT_PORT IMAGE_NAME
 ```
