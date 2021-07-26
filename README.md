@@ -71,6 +71,9 @@ Creates and runs Docker containers (bash command; **interactive mode**;
 This way, you get an interactive shell and you are immediately logged into the OS running as container;
 You are currently in an interactive shell session inside the Docker container)
 ```
+
+```
+```
 docker run -it --name ubuntu-1 ubuntu:18.04 bash
 ```
 Creates and runs Docker containers (sleep 5 command; **daemon mode**; 
@@ -150,6 +153,10 @@ uname -a
 Containers logs (Suppose you run a docker container in **daemon mode**)
 ```
 docker logs CONTAINER_NAME or CONTAINER_ID
+```
+Container port forwarding
+```
+
 ```
 ### Docker Network
 ### Docker Volume
