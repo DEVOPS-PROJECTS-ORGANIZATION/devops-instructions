@@ -157,9 +157,12 @@ Containers logs (Suppose you run a docker container in **daemon mode**)
 ```
 docker logs CONTAINER_NAME or CONTAINER_ID
 ```
-Container port forwarding
+Container port forwarding (Ports exposed from Linux are forwarded to the host.)
 ```
-
+docker run -MODE --name CONTAINER_NAME -p 9000:8080 IMAGE_NAME
+```
+```
+docker run -it --name servers-0.1.0 -p 9000:8080 danijelradakovic/servers:0.1.0
 ```
 ### Docker Network
 ### Docker Volume
