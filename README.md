@@ -32,12 +32,7 @@ docker ps -a
 ```
 ### Docker Network
 ### Docker Volume
-
-
-
-
-
-Docker containers listing
+Docker volumes listing
 ```
 docker volume ls
 ```
@@ -53,6 +48,12 @@ Automatically remove (delete) Docker volume
 ```
 docker volume prune
 ```
+
+
+
+
+
+
 Creates and runs Docker containers (bash command; **interactive mode**; 
 This way, you get an interactive shell and you are immediately logged into the OS running as container;
 You are currently in an interactive shell session inside the Docker container)
