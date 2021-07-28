@@ -205,7 +205,7 @@ net start postgresql-x64-13
 ```
 Container port forwarding conflicts second solution (Shut down database servers on your Windows machine using services.msc; If it is running as a Windows service: Start -> Run -> (then type in:) services.msc. When you see PostgresSQL services set them to manual instead of automatic. If you do need them again, just fire up services.msc again and click the Start icon/button once you have reselected the PostgresSQL service.)
 ```
-Start → Run → services.msc → Search Postgres/MySQL service → Right click the service → properties → manual → stop/start/pause
+Windows Start → Run → services.msc → Search Postgres/MySQL service → Right click the service → properties → manual → stop/start/pause
 ```
 ![](images/services.png)
 ### Docker Network
