@@ -23,6 +23,13 @@ Pieces of information about Docker daemon
 docker system info
 ```
 ### Docker Info
+Docker version
+```
+docker version
+```
+```
+docker --version
+```
 Resource allocation (Docker resources usage)
 ```
 docker system df
