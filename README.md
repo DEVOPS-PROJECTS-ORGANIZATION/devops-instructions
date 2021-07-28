@@ -189,10 +189,19 @@ Container port forwarding conflicts second solution (Shut down database servers 
 net stop SERVICE_NAME
 ```
 ```
+net start SERVICE_NAME
+```
+```
 net stop MySQL80
 ```
 ```
+net start MySQL80
+```
+```
 net stop postgresql-x64-13
+```
+```
+net start postgresql-x64-13
 ```
 Container port forwarding conflicts second solution (Shut down database servers on your Windows machine using services.msc)
 ```
