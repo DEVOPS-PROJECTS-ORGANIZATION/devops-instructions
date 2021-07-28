@@ -198,6 +198,13 @@ docker volume prune
 ```
 
 ## Docker Compose
+Docker Compose Info
+```
+
+```
+```
+docker-compose --version
+```
 Mapping environment variables from environment file in the config folder to the docker-compose.yml file (Substitute environment variables in Compose files;
 It’s possible to use environment variables to populate values inside a Docker Compose file; If you have multiple environment variables, you can substitute them
 by adding them to a default environment variable file named .env or by providing a path to your environment variables file using the --env-file command line option)
