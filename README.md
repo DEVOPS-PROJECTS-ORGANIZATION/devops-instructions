@@ -67,7 +67,7 @@ Docker containers listing (all containers)
 ```
 docker ps -a
 ```
-Creates and runs Docker containers (bash command; **interactive mode**; 
+Creates and runs Docker container (bash command; **interactive mode**; 
 This way, you get an interactive shell and you are immediately logged into the OS running as container;
 You are currently in an interactive shell session inside the Docker container)
 ```
@@ -76,7 +76,7 @@ docker run -MODE --name CONTAINER_NAME IMAGE_NAME COMMAND
 ```
 docker run -it --name ubuntu-1 ubuntu:18.04 bash
 ```
-Creates and runs Docker containers (sleep 5 command; **daemon mode**; 
+Creates and runs Docker container (sleep 5 command; **daemon mode**; 
 This way the container starts and run in the background; An interactive shell that runs bash is **not available** immediately; 
 You “daemonize” the container)
 ```
