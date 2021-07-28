@@ -184,8 +184,17 @@ Container port forwarding conflicts first solution (Use another port for port pu
 ```
 docker run -d --network first-network --name mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_USER=sa -e MYSQL_PASSWORD=zgadija -e MYSQL_DATABASE=servers -p 3307:3306 mysql:8.0.19
 ```
-Container port forwarding conflicts second solution (Shut down database servers on your Windows machine)
-
+Container port forwarding conflicts second solution (Shut down database servers on your Windows machine using command line. Run the CLI as Administrator)
+```
+```
+```
+net stop MySQL80
+```
+```
+```
+Container port forwarding conflicts second solution (Shut down database servers on your Windows machine using services.msc)
+```
+```
 ### Docker Network
 ### Docker Volume
 Docker volumes listing
