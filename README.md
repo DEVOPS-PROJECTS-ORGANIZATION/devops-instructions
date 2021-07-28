@@ -180,11 +180,11 @@ docker run -it --name servers-0.1.0 -p 9000:8080 danijelradakovic/servers:0.1.0
 ```
 Container Port conflicts with existing databases installed on your machine (If you publish a port that is already in use by another application there will be conflicts. Port 3306 (default port) is already in use by the MySQL database server. Port 5432 (default port ) is already in use by the PostgreSQL database server. There are two solutions: use another port for port publishing and shut down database servers on your machine)
 
-Container port forwarding conflicts first solution (Use another port for port publishing)
+Container port forwarding conflicts first solution (Use another port for port publishing 3306→**3307**)
 ```
-
+docker run -d --network first-network --name mysql -e MYSQL_ROOT_PASSWORD=password -e MYSQL_USER=sa -e MYSQL_PASSWORD=zgadija -e MYSQL_DATABASE=servers -p 3307:3306 mysql:8.0.19
 ```
-Container port forwarding conflicts second solution (Shut down database servers on your machine)
+Container port forwarding conflicts second solution (Shut down database servers on your Windows machine)
 
 ### Docker Network
 ### Docker Volume
