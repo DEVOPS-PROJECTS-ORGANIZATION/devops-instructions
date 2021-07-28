@@ -186,11 +186,13 @@ docker run -d --network first-network --name mysql -e MYSQL_ROOT_PASSWORD=passwo
 ```
 Container port forwarding conflicts second solution (Shut down database servers on your Windows machine using command line. **Run the CLI as Administrator**)
 ```
+net stop SERVICE_NAME
 ```
 ```
 net stop MySQL80
 ```
 ```
+net stop postgresql-x64-13
 ```
 Container port forwarding conflicts second solution (Shut down database servers on your Windows machine using services.msc)
 ```
