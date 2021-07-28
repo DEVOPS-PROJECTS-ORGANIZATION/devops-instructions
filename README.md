@@ -198,7 +198,7 @@ docker volume prune
 ```
 
 ## Docker Compose
-###Docker Compose Info
+### Docker Compose Info
 ```
 docker-compose version
 ```
