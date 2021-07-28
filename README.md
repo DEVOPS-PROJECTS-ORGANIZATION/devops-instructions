@@ -191,3 +191,10 @@ docker volume prune
 ```
 
 ## Docker Compose
+Mapping environment variables from environment file in the config folder to the docker-compose.yml file
+```
+docker-compose --env-file ENVIRONMENT_FILE_PATH config
+```
+```
+docker-compose --env-file config/.env.dev config
+```
