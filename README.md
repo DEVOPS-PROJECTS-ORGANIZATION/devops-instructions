@@ -190,9 +190,4 @@ Automatically remove (delete) Docker volume
 docker volume prune
 ```
 
-
-
-
-
-
-
+## Docker Compose
