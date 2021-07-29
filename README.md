@@ -244,7 +244,7 @@ docker-compose --env-file ENVIRONMENT_FILE_PATH config
 ```
 docker-compose --env-file config/.env.dev config
 ```
-Docker-compose containers/services listing (one service one container)
+Docker-compose services/containers listing (one service one container)
 ```
 docker-compose ps
 ```
