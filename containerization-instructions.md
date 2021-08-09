@@ -9,12 +9,12 @@ C:\Program Files\Docker\Docker\Docker Desktop.exe
 ```
 start "C:\Program Files\Docker\Docker\Docker Desktop.exe"
 ```
-![](images/docker-instructions/docker_is_running.png)
+![](images/containerization-instructions/docker_is_running.png)
 **Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list:
 ```
 Task bar → Docker’s whale icon → right click → Quit Docker Desktop
 ```
-![](images/docker-instructions/stop_docker_daemon.png)
+![](images/containerization-instructions/stop_docker_daemon.png)
 
 Pieces of information about Docker daemon
 ```
@@ -157,7 +157,7 @@ Check if you are inside of a running Docker container
 ```
 uname -a
 ```
-![](images/docker-instructions/hostname.png)
+![](images/containerization-instructions/hostname.png)
 
 Containers logs (Suppose you run a docker container in **daemon mode**)
 ```
@@ -206,7 +206,7 @@ Container port forwarding conflicts second solution (Shut down database servers 
 ```
 Windows Start → Run → services.msc → Search Postgres/MySQL service → Right click the service → properties → manual → stop/start/pause
 ```
-![](images/docker-instructions/services.png)
+![](images/containerization-instructions/services.png)
 ### Docker Network
 ### Docker Volume
 Docker volumes listing
