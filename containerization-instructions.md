@@ -1,4 +1,4 @@
-# Docker Instructions
+# Containerization Instructions
 
 ## Docker Daemon
 **Start Docker Daemon:** If you're using Docker for Windows, Then simply start the desktop app installed in:
