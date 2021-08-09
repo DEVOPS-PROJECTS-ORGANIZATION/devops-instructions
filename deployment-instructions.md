@@ -8,4 +8,6 @@ Navigate your browser to https://id.heroku.com/login and log in. If you don't ha
 #### Step 2: Create a new Heroku app
 Once you see your personal app dashboard, you can create a new app. If your dashboard is currently empty, you can click the **Create new app button**. Otherwise click the **New** button in the top-right corner and select **Create new app**:
 ![create_new_heroku_app1](https://github.com/DEVOPS-PROJECTS-ORGANIZATION/devops-instructions/blob/main/images/deployment-instructions/create_new_heroku_app1.png)
+If you want, you can also change the **Region** so that the database is hosted closer to where you are located. Once you've provided the **App name**, you can click the **Create app** button.
+![create_new_heroku_app2](https://github.com/DEVOPS-PROJECTS-ORGANIZATION/devops-instructions/blob/main/images/deployment-instructions/create_new_heroku_app2.png)
 
