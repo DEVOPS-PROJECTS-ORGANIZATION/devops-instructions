@@ -1,4 +1,4 @@
-# Docker Instructions
+# Containerization Instructions
 
 ## Docker Daemon
 **Start Docker Daemon:** If you're using Docker for Windows, Then simply start the desktop app installed in:
@@ -20,7 +20,8 @@ Pieces of information about Docker daemon
 ```
 docker system info
 ```
-## Docker Info
+## Docker 
+### Docker Info
 Docker version
 ```
 docker version
@@ -32,7 +33,7 @@ Resource allocation (Docker resources usage)
 ```
 docker system df
 ```
-## Docker Image
+### Docker Image
 Docker images listing
 ```
 docker images
@@ -63,7 +64,7 @@ Automatically remove (delete) Docker images
 ```
 docker image prune -a
 ```
-## Docker Container
+### Docker Container
 Docker containers listing (active containers = running containers)
 ```
 docker ps
@@ -206,8 +207,8 @@ Container port forwarding conflicts second solution (Shut down database servers 
 Windows Start → Run → services.msc → Search Postgres/MySQL service → Right click the service → properties → manual → stop/start/pause
 ```
 ![](images/docker-instructions/services.png)
-## Docker Network
-## Docker Volume
+### Docker Network
+### Docker Volume
 Docker volumes listing
 ```
 docker volume ls
@@ -225,8 +226,8 @@ Automatically remove (delete) Docker volume
 docker volume prune
 ```
 
-# Docker Compose
-## Docker Compose Info
+## Docker Compose
+### Docker Compose Info
 ```
 docker-compose version
 ```
