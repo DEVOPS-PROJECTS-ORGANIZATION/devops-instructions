@@ -11,4 +11,5 @@ Once you see your personal app dashboard, you can create a new app. If your dash
 
 If you want, you can also change the **Region** so that the database is hosted closer to where you are located. Once you've provided the **App name**, you can click the **Create app** button.
 ![create_new_heroku_app2](https://github.com/DEVOPS-PROJECTS-ORGANIZATION/devops-instructions/blob/main/images/deployment-instructions/create_new_heroku_app2.png)
+#### Step 3: Add a PostreSQL database
 
