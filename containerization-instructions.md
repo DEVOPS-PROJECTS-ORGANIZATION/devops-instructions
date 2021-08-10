@@ -208,6 +208,10 @@ Windows Start → Run → services.msc → Search Postgres/MySQL service → Rig
 ```
 ![](images/containerization-instructions/services.png)
 ### Docker Network
+Docker networks listing
+```
+docker network ls
+```
 ### Docker Volume
 Docker volumes listing
 ```
