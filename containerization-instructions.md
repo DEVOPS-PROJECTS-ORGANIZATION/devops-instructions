@@ -214,7 +214,7 @@ docker network ls
 ```
 Display detailed information on one or more networks
 ```
-docker network inspect NETWORK_NAME
+docker network inspect NETWORK_NAME or NETWORK_ID
 ```
 ### Docker Volume
 Docker volumes listing
