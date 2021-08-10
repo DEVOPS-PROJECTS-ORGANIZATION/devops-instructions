@@ -212,6 +212,10 @@ Docker networks listing
 ```
 docker network ls
 ```
+Display detailed information on one or more networks
+```
+docker network inspect NETWORK_NAME
+```
 ### Docker Volume
 Docker volumes listing
 ```
