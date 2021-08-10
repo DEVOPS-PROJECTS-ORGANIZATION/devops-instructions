@@ -212,9 +212,17 @@ Docker networks listing
 ```
 docker network ls
 ```
-Display detailed information on one or more networks
+Docker network metadata
 ```
 docker network inspect NETWORK_NAME or NETWORK_ID
+```
+Manually remove (delete) Docker network
+```
+docker network rm NETWORK_NAME or NETWORK_ID
+```
+Automatically remove (delete) Docker network
+```
+docker network prune
 ```
 ### Docker Volume
 Docker volumes listing
