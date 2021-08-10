@@ -12,4 +12,8 @@ Once you see your personal app dashboard, you can create a new app. If your dash
 If you want, you can also change the **Region** so that the database is hosted closer to where you are located. Once you've provided the **App name**, you can click the **Create app** button.
 ![create_new_heroku_app2](https://github.com/DEVOPS-PROJECTS-ORGANIZATION/devops-instructions/blob/main/images/deployment-instructions/create_new_heroku_app2.png)
 #### Step 3: Add a PostreSQL database
+To attach a **PostgreSQL database** to the Heroku app you just created, you need to navigate to the **Resources** tab in the header of your newly created Heroku app's dahsboard. Then type Heroku Postgres into the **Add-ons** search field. When shown, select the suggested **Heroku Postgres** add-on from the dropdown:
+![add_postresql_database1](https://github.com/DEVOPS-PROJECTS-ORGANIZATION/devops-instructions/blob/main/images/deployment-instructions/add_postresql_database1.png)
 
+The next popup asks you to choose a pricing plan for the database. Select the **Hobby Dev - Free plan** and click **Provision**:
+![add_postresql_database2](https://github.com/DEVOPS-PROJECTS-ORGANIZATION/devops-instructions/blob/main/images/deployment-instructions/add_postresql_database2.png)
