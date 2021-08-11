@@ -268,3 +268,7 @@ To set up infrastructure run the following command:
 ```
 docker-compose up --build
 ```
+To destroy infrastructure run the following command:
+```
+docker-compose down -v
+```
