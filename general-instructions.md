@@ -26,3 +26,7 @@ echo %OS%
 ```
 echo %NUMBER_OF_PROCESSORS%
 ```
+### Check resources (CPU, Memory, Disk, Network) usage
+```
+Ctrl+Shift+Esc is a keyboard shortcut that opens the Microsoft Windows Task Manager
+```
