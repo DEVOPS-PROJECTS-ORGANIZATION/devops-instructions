@@ -11,5 +11,11 @@ Add Your SSH Key to your SSH Agent
 ssh-add ~/.ssh/id_rsa
 ```
 ## Angular
-
+### How to run Angular code from Github
+```
+npm install
+```
+```
+ng serve --open
+```
 ## Windows
