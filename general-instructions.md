@@ -19,3 +19,10 @@ npm install
 ng serve --open
 ```
 ## Windows
+### How to display the contents of an environment variable from the Command Line Interface (CLI) in Windows
+```
+echo %OS%
+```
+```
+echo %NUMBER_OF_PROCESSORS%
+```
