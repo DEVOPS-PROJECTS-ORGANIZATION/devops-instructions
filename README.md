@@ -1,7 +1,7 @@
 # Devops Instructions
 [general-instructions](general-instructions.md)
 
-[general-instructions](database-instructions.md)
+[database-instructions](database-instructions.md)
 
 [containerization-instructions](containerization-instructions.md)
 
