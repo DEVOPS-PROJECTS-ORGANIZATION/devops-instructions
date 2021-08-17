@@ -265,6 +265,17 @@ Docker-compose services/containers listing (one service one container)
 ```
 docker-compose ps
 ```
+Logs of all services in the docker-compose file
+```
+docker-compose logs
+```
+Logs of particular service in the docker-compose file
+```
+docker-compose logs SERVICE_NAME (SERVICE_NAME from docker-compose.yml file)
+```
+```
+docker-compose logs database
+```
 To set up infrastructure run the following command:
 ```
 docker-compose up --build
