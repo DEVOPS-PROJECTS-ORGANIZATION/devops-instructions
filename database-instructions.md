@@ -20,9 +20,11 @@ Show all the databases:
 ```
 show databases;
 ```
+Choose your database:
 ```
 use servers;
 ```
+Show all the tables in the chosen database:
 ```
 show tables;
 ```
@@ -61,13 +63,14 @@ Show all the databases:
 ```
 \l
 ```
-
+Choose your database:
 ```
 \c database_name
 ```
 ```
 \c servers
 ```
+Show all the tables in the chosen database:
 ```
 \dt
 ```
