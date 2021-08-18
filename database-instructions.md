@@ -13,5 +13,8 @@ docker exec -ti mysql bash
 ```
 mysql -u sa -h localhost -p
 ```
+```
+Enter password: zgadija
+```
 ## PostgreSQL Database
 ## DBeaver Universal Database client
