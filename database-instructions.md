@@ -6,7 +6,7 @@ Position yourself using **Command Line Interface (CLI)** in the folder where `do
 ```
 cd DOCKER-COMPOSE_FILE_PATH
 ```
-Check if data is added to MySQL Database using the Command Line Interface (CLI)
+Check if data is added to MySQL Database using the **Command Line Interface (CLI)**
 ```
 docker exec -ti mysql bash
 ```
