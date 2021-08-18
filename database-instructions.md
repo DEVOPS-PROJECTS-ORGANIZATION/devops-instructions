@@ -32,7 +32,7 @@ desc server;
 TABLE server;
 ```
 ```
-select * from server;
+SELECT * FROM server;
 ```
 ```
 exit
