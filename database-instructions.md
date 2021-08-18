@@ -51,7 +51,10 @@ Check if data is added to PostgreSQL Database using the **Command Line Interface
 docker exec -ti postgres bash
 ```
 ```
-psql -h localhost -p 5432 -U sa postgres
+psql -h localhost -p 5432 -U sa postgres -W
+```
+```
+Password: zgadija
 ```
 ```
 \l
