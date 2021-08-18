@@ -16,5 +16,23 @@ mysql -u sa -h localhost -p
 ```
 Enter password: zgadija
 ```
+```
+show databases;
+```
+```
+show tables;
+```
+```
+desc server;
+```
+```
+TABLE server;
+```
+```
+exit
+```
+```
+exit
+```
 ## PostgreSQL Database
 ## DBeaver Universal Database client
