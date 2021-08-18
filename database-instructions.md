@@ -6,5 +6,12 @@ Position yourself using **Git Bash** in the folder where `docker-compose.yml` fi
 ```
 cd DOCKER-COMPOSE_FILE_PATH
 ```
+Check if data is added to MySQL Database
+```
+docker exec -ti mysql bash
+```
+```
+mysql -u sa -h localhost -p
+```
 ## PostgreSQL Database
 ## DBeaver Universal Database client
