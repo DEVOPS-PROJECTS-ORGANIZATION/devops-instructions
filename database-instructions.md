@@ -71,6 +71,9 @@ Choose your database:
 ```
 \c servers
 ```
+```
+Password: zgadija
+```
 Show all the tables in the chosen database:
 ```
 \dt
