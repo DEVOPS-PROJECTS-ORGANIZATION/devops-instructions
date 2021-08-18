@@ -31,6 +31,7 @@ show tables;
 ```
 desc server;
 ```
+Show all the data in a table:
 ```
 TABLE server;
 ```
@@ -74,6 +75,7 @@ Show all the tables in the chosen database:
 ```
 \dt
 ```
+Show all the data in a table:
 ```
 TABLE server;
 ```
