@@ -59,4 +59,10 @@ Password: zgadija
 ```
 \l
 ```
+```
+exit
+```
+```
+exit
+```
 ## DBeaver Universal Database client
