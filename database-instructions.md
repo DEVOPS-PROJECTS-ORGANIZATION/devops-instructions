@@ -60,6 +60,12 @@ Password: zgadija
 \l
 ```
 ```
+TABLE server;
+```
+```
+SELECT * FROM server;
+```
+```
 exit
 ```
 ```
