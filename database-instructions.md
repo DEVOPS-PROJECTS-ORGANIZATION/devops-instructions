@@ -51,9 +51,9 @@ Check if data is added to PostgreSQL Database using the **Command Line Interface
 docker exec -ti postgres bash
 ```
 ```
-
-```
-```
 psql -h localhost -p 5432 -U sa postgres
+```
+```
+\l
 ```
 ## DBeaver Universal Database client
