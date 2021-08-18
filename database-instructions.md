@@ -16,6 +16,7 @@ mysql -u sa -h localhost -p
 ```
 Enter password: zgadija
 ```
+Show all the databases:
 ```
 show databases;
 ```
@@ -56,8 +57,19 @@ psql -h localhost -p 5432 -U sa postgres -W
 ```
 Password: zgadija
 ```
+Show all the databases:
 ```
 \l
+```
+
+```
+\c database_name
+```
+```
+\c servers
+```
+```
+\dt
 ```
 ```
 TABLE server;
