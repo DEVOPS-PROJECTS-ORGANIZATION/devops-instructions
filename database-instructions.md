@@ -32,6 +32,9 @@ desc server;
 TABLE server;
 ```
 ```
+select * from server;
+```
+```
 exit
 ```
 ```
