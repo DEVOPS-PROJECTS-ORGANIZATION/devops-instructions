@@ -20,6 +20,9 @@ Enter password: zgadija
 show databases;
 ```
 ```
+use servers;
+```
+```
 show tables;
 ```
 ```
