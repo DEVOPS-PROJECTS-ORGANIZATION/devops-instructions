@@ -28,6 +28,7 @@ Show all the tables in the chosen database:
 ```
 show tables;
 ```
+To show table structure:
 ```
 desc server;
 ```
