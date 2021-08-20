@@ -81,7 +81,13 @@ Show all the tables in the chosen database:
 ```
 Show all the data in a table:
 ```
+TABLE table_name;
+```
+```
 TABLE server;
+```
+```
+SELECT * FROM table_name;
 ```
 ```
 SELECT * FROM server;
