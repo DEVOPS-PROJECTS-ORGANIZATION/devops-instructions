@@ -284,3 +284,8 @@ To destroy infrastructure run the following command:
 ```
 docker-compose down -v
 ```
+## Docker Hub
+Log in to Docker Hub
+```
+docker login
+```
