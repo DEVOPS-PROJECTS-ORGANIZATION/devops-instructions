@@ -289,3 +289,7 @@ Log in to Docker Hub
 ```
 docker login
 ```
+Log out to Docker Hub
+```
+docker logout
+```
