@@ -24,6 +24,10 @@ docker system info
 
 Select this option to delete container and image data. Choose whether you’d like to delete data from Hyper-V, WSL 2, or Windows Containers and then click Delete to confirm
 ![](images/containerization-instructions/clean_purge_data.png)
+```
+Task bar → Docker’s whale icon → right click → Troubleshoot
+```
+![](images/containerization-instructions/clean_purge_data_right_click.png)
 ## Docker 
 ### Docker Info
 Docker version
