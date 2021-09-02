@@ -42,6 +42,6 @@ Check resources (**CPU**, **Memory**, **Disk**, **Network**) usage
 ### Activate Maven tool window
 
 ```
-right-click on the pom.xml file  →  Add as Maven Project
+Right-Click on the pom.xml file  →  Add as Maven Project
 ```
 ![](images/general-instructions/maven_tool_window.png)
