@@ -39,3 +39,4 @@ Check resources (**CPU**, **Memory**, **Disk**, **Network**) usage
 
 ![](images/general-instructions/CPU_Memory_Disk_Network_Usage.PNG)
 ## IntelliJ IDEA
+### Activate Maven tool window
