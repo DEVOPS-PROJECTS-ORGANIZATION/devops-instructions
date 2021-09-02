@@ -30,3 +30,11 @@ echo %NUMBER_OF_PROCESSORS%
 ```
 Ctrl+Shift+Esc is a keyboard shortcut that opens the Microsoft Windows Task Manager
 ```
+```
+Right-Click the Taskbar → choose Task Manager
+```
+![](images/general-instructions/task_manager.png)
+
+Check resources (**CPU**, **Memory**, **Disk**, **Network**) usage
+
+![](images/general-instructions/CPU_Memory_Disk_Network_Usage.PNG)
