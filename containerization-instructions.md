@@ -314,3 +314,10 @@ Log out to Docker Hub
 ```
 docker logout
 ```
+Push your Docker image to Docker Hub
+```
+docker push DOCKERHUB_USERNAME/DOCKERHUB_REPO_NAME
+```
+```
+docker push stevicdule/heroku-terraform
+```
