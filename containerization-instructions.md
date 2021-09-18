@@ -64,6 +64,9 @@ Pull Docker image from Docker Hub Container Image Library
 ```
 docker pull python
 ```
+```
+docker pull danijelradakovic/heroku-terraform:latest
+```
 Manually remove (delete) Docker images
 ```
 docker image rm IMAGE_NAME
