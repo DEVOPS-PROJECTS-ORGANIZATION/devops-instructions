@@ -8,3 +8,5 @@
 [monitoring-instructions](monitoring-instructions.md)
 
 [deployment-instructions](deployment-instructions.md)
+
+[github-actions-instructions](github-actions-instructions.md)
