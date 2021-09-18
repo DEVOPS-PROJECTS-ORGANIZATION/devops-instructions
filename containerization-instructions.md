@@ -75,6 +75,16 @@ Automatically remove (delete) Docker images
 ```
 docker image prune -a
 ```
+How to rename Docker images without rebuilding it
+```
+docker image tag OLD_NAME:tag NEW_NAME:tag
+```
+```
+docker image tag OLD_ID NEW_NAME:tag
+```
+```
+docker image tag danijelradakovic/heroku-terraform stevicdule/heroku-terraform
+```
 ### Docker Container
 Docker containers listing (active containers = running containers)
 ```
